@@ -1,19 +1,18 @@
+# macOS system files
+.DS_Store
 
-        config_api_file/
-        __pycache__/
-        *.py[cod]
-        *.egg
-        *.egg-info/
-        dist/
-        build/
-        .eggs/
-        *.log
-        .env
-        .venv
-        .ipynb_checkpoints/
-        .vscode/
-        .idea/
-        .mypy_cache/
-        .coverage
-        
-        
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# API keys and config
+config_api_file/
+
+# VSCode settings (optional)
+.vscode/
+
+# Logs
+*.log  
